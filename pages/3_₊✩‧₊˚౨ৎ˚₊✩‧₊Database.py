@@ -21,7 +21,7 @@ st.title("Análise de Lucratividade de Músicas no Spotify")
 # Introdução
 st.markdown("""
 Disclaimer: 
-        A análise dos dados foi feita totalmente em Pandas, sendo a versão completa e mais confiável neste link:
+        A análise dos dados foi feita totalmente no Colab, sendo a versão completa e mais confiável neste link:
             https://colab.research.google.com/drive/1UDratcANHBPvHB9sfhSPBISDfPq9CUaU?usp=sharing            
 
 Este projeto tem como objetivo analisar as características das músicas mais lucrativas do Spotify, como dançabilidade, duração e positividade, para identificar padrões que levam ao sucesso financeiro.
