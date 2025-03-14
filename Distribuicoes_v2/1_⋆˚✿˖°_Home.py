@@ -35,14 +35,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-
-if "data" not in st.session_state:
-    df = pd.read_csv("dataset.csv")
-    df = df.sort_values(by="popularity", ascending=False)
-    st.session_state["data"] = df
-
-df = st.session_state["data"]
-
 # Configuração da página
 st.sidebar.markdown("Desenvolvido por Lana Andrade")
 
