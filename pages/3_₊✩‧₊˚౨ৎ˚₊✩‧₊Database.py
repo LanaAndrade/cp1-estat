@@ -175,7 +175,7 @@ st.pyplot(fig)
 # Distribuição Normal e Binomial
 st.subheader("Distribuição Normal e Binomial")
 st.markdown("""
-Aqui, utilizamos a distribuição normal para calcular a probabilidade de lucro e a distribuição binomial para analisar a probabilidade de sucesso financeiro.
+A probabilidade de o lucro ser acima de 3000 é muito baixa, e abaixo de 0 também. Já de cerca de 1000 à 1800 é bem alta, sendo o seu pico.
 """)
 
 # Distribuição Normal
@@ -218,6 +218,22 @@ ax.set_title("Distribuição Binomial")
 ax.set_xlabel("Número de Sucessos")
 ax.set_ylabel("Probabilidade")
 st.pyplot(fig)
+
+st.markdown("""
+Utilizei a distribuição binomial para descobrir as chances das canções terem sucesso financeiro ou não as vezes que consegui os resultados que eu quero é 46674 e as tentativas totais foram 114000, então a probabilidade é 40,94%, e o numero de sucesso é acima de 1552.26. - a distribuição binomial calcula essa probabilidade de conseguir com x tentativas, os numeros foram substituidos por seus equivalentes.
+
+n_max = 50 - A quantidade de tentativas máxima é 50
+
+n = 10 - o número de tentativas setado é 10
+
+k = 1552.26 é o valor definido como sucesso, sendo cerca de 50% do valor total, portanto, o valor desse parâmetro é 5.
+
+p = 0.41 pois a probabilidade de atingir lucro é de 41%
+
+Portanto com 10 tentativas, a probabilidade de atingir 2 com sucesso é de 0.10 e de atingir 4 com sucesso é a maior, 0,25%.
+
+""")
+
 
 # Conclusão
 st.subheader("Conclusão")
