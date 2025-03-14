@@ -15,7 +15,7 @@ st.markdown("""
         .centered-columns {
             display: flex;
             justify-content: center;
-            gap: 20px; /* Adds margin between the columns */
+            gap: 20px; /* Adds margin between the columns a */ 
         }
         .stColumn {
             display: inline-block;
