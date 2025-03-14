@@ -5,7 +5,6 @@ import scipy.stats as stats
 import plotly.express as px
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
-from plotnine import *
 
 st.markdown("""
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
