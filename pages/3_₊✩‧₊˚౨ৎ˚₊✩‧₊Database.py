@@ -8,29 +8,6 @@ st.set_page_config(
     layout="wide"
 )
 
-df = st.session_state["data"]
-
-genres = "All"
-genres = np.append(genres, df["track_genre"].unique())
-selected_genre = st.sidebar.selectbox("Select Genre", genres)
-st.sidebar.markdown("🎧 Lana Andrade")
-
-# Apply filtering
-if selected_genre == "All":
-    df_filtered = df
-else:
-    df_filtered = df[df["track_genre"] == selected_genre]
-
-# Display the filtered dataset
-st.dataframe(
-    df_filtered,
-    column_config={
-        "popularity": st.column_config.ProgressColumn(
-            "popularity", format="%f", min_value=0, max_value=int(df_filtered["popularity"].max()))
-    }
-)
-
-
 import streamlit as st
 import pandas as pd
 import numpy as np
