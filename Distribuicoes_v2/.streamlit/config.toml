@@ -1,0 +1,9 @@
+[server]
+enableCORS = false
+
+[theme]
+primaryColor = "#D533F5"
+backgroundColor = "#F7DFF5"
+secondaryBackgroundColor = "#DBB8DE"
+textColor = "#000000"
+font = "Euphemia"
