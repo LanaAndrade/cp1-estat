@@ -81,3 +81,26 @@ st.markdown("""
         </div>
     </div>
 """, unsafe_allow_html=True)
+
+
+# Seção de Escolaridade
+st.markdown("""
+    <div class="section-box">
+        <div class="section-title">Certificados</div>
+        <div class="section-content">
+            <p><span class="highlight">Interskill - Mainframe Operator - CICS v5.6 Operations by IBM</p>
+            <p>Deep Learning using TensorFlow by IBM</p>
+            <p><span class="highlight">Introduction to responsible AI by Google</p>
+        </div>
+    </div>
+""", unsafe_allow_html=True)
+
+# Seção de Escolaridade
+st.markdown("""
+    <div class="section-box">
+        <div class="section-title">Skills</div>
+        <div class="section-content">
+            <p><span class="highlight">Java - Javascript - Spring Boot - Python - C# - C++</p>
+        </div>
+    </div>
+""", unsafe_allow_html=True)
