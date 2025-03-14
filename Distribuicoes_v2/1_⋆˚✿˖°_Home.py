@@ -42,10 +42,7 @@ st.sidebar.markdown("Desenvolvido por Lana Andrade")
 # add_logo("logo.jpeg")
 
 # Adicionando o logo
-st.image("logo.png", width=200)  # Ajuste o width conforme necessário
-
-# Adicionando o logo no body
-st.image("logo.png", width=250)
+st.image("./logo.png", width=250)  # Ajuste o width conforme necessário
 
 st.markdown('<h1 class="custom-font">Lana Andrade - Quem sou eu?</h1>', unsafe_allow_html=True)
 
