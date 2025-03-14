@@ -37,7 +37,7 @@ st.markdown("""
 
 
 if "data" not in st.session_state:
-    df = pd.read_csv("dataset.csv", index_col="track_id")
+    df = pd.read_csv("dataset.csv")
     df = df.sort_values(by="popularity", ascending=False)
     st.session_state["data"] = df
 
