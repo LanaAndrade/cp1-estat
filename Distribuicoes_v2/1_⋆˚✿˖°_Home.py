@@ -42,7 +42,7 @@ st.sidebar.markdown("Desenvolvido por Lana Andrade")
 # add_logo("logo.jpeg")
 
 # Adicionando o logo
-st.logo("logo.png")
+st.image("logo.png", width=200)  # Ajuste o width conforme necessário
 
 # Adicionando o logo no body
 st.image("logo.png", width=250)
